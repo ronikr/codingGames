@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue; }
+
+body {
+  direction: rtl; }
+
+.contactForm2, .contactForm {
+  margin: auto;
+  margin-top: 20px;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  max-height: 600px;
+  background-color: lightgoldenrodyellow; }
+  .contactForm2 .form-row, .contactForm .form-row {
+    align-self: center;
+    padding: 7px;
+    font-family: "Copperplate Gothic Light"; }
+
+.contactForm {
+  border: double darkolivegreen 2px;
+  border-radius: 10px; }
+  .contactForm .contactHeader {
+    font-family: "Lucida Sans Unicode";
+    font-style: oblique;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+    .contactForm .contactHeader h1 {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=contact.css.map */
