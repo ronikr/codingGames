@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 50% !important; }
+
+  .container-0 {
+    text-align: center; } }
+body {
+  text-align: center;
+  font-family: cursive;
+  background-color: aliceblue;
+  color: indigo; }
+
+header {
+  background-color: indigo;
+  color: white; }
+
+footer {
+  background-color: indigo;
+  color: white; }
+
+img {
+  width: 100%;
+  min-width: 150px; }
+
+.class {
+  min-width: 150px;
+  width: 25%;
+  margin: 15px;
+  padding: 10px;
+  list-style: none;
+  flex-grow: 1; }
+
+.container {
+  display: flex;
+  width: 80%;
+  padding: 0; }
+
+.gamesList {
+  width: auto; }
+
+.imageClass {
+  flex-grow: 5; }
+
+.gamesList {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=gamesSCSS.css.map */
