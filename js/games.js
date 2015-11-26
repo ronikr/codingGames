@@ -1,5 +1,5 @@
 function renderGames (gamesJSON) {
-    $.getJSON( "lib/games.json", function( data ) {
+    $.getJSON("server/games.json", function( data ) {
         var items = [];
         $.each( data, function( key, val ) {
             items.push( "<ul class='container container-" + key + "'><li class='class class-" + key + "'>" + val.name + "</li>" +
