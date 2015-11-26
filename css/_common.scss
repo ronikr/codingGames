@@ -1,8 +1,88 @@
-body {
-  background-color: $bg-color;
-}
+$bg-color: #ffffff;
+$main-color: #000000;
+$font-color: #000000;
+$border-color: #ffae00;
+$footer-header: #BD3632;
 
 body {
+  background-color: $bg-color;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+
+  flex: 1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: $bg-color;
+  color: $font-color;
+  text-align: center;
+  margin: auto;
+}
+
+.parent {
+  padding: 20px 0;
+  width: 80%;
+  height: auto;
+  //outline: 1px solid $border-color;
+  margin: auto;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  .child {
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 0;
+    //align-self: inherit;
+    //outline: 1px solid $border-color;
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+footer, header {
+
+  padding: 10px;
+  background-color: $footer-header;
+  height: 120px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#flags {
+  position: relative;
+  top: 30%;
+
+  img {
+    border: 1px solid azure;
+  }
+}
+
+.admin-stats {
+  font-size: 1.2em;
+  background-color: darkgrey;
+  float: left;
+  padding: 3px;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.he {
+
   direction: rtl;
 }
 
