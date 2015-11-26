@@ -1,0 +1,38 @@
+.passField_container{
+  margin: auto;
+  width: 300px;
+  height: 100px;
+}
+
+input{
+  padding: 3px;
+  margin-top: 5px;
+
+}
+.logButton{
+width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #3377aa;
+  color: #B6C6E4;
+}
+.logButton:hover{
+  background-color: #44aa22;
+}
+
+
+
+.passField {
+  display: none;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  padding: 5px;
+
+  border-radius: 14px;
+  border: groove 2px;
+
+}
+.adminStats{
+  display: none;
+}

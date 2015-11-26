@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  text-align: center; }
+
+.welcome {
+  display: flex;
+  text-align: center;
+  background-color: #3377aa;
+  height: 200px;
+  width: 300px;
+  border-radius: 50px;
+  color: #CC99CC;
+  margin: auto; }
+
+.innerWelcome {
+  text-align: center;
+  margin: auto;
+  padding: 25%;
+  font-size: 300%; }
+
+/*# sourceMappingURL=welcome.css.map */

@@ -35,7 +35,7 @@ body {
 footer, header {
   padding: 10px;
   background-color: #BD3632;
-  height: 120px;
+  height: 125px;
   text-align: center; }
 
 li {
@@ -48,6 +48,7 @@ li {
     border: 1px solid azure; }
 
 .admin-stats {
+  display: none;
   font-size: 1.2em;
   background-color: darkgrey;
   float: left;

@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
 }
 
+
 .content {
 
   flex: 1;
@@ -53,7 +54,7 @@ footer, header {
 
   padding: 10px;
   background-color: $footer-header;
-  height: 120px;
+  height: 125px;
   text-align: center;
 }
 
@@ -71,6 +72,7 @@ li {
 }
 
 .admin-stats {
+  display: none;
   font-size: 1.2em;
   background-color: darkgrey;
   float: left;
