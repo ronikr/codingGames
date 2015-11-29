@@ -26,5 +26,14 @@
     "description": "Who will get to the end first? you'll just have to find out on your own.",
     "url": "cars.html",
     "picture": "../img/car.jpg"
-  }
+  },
+
+  { "id": "saimons-piano",
+    "name": "Saimon's Piano",
+    "desc": "lorem ipsum lorem ipsum lorem ipsum",
+    "url": "simon.html",
+    "rate": 3,
+    "raters": 18,
+    "publishedAt": 1448693940000,
+    "by": "Puki Ben David" }
 ]
