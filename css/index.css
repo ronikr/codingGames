@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #b2cede;
   direction: ltr;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
   width: 100%;
-  background: #ffffff;
+  background: #b2cede;
   color: #000000;
   text-align: center;
   margin: auto; }
